@@ -28,4 +28,4 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Publish to npmjs
-        run: pnpm publish --provenance
+        run: pnpm publish --provenance --no-git-checks
